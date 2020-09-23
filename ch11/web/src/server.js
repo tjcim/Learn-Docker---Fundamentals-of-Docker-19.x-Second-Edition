@@ -13,7 +13,7 @@ app.get('/',function(req,res){
     res.status(200).send('Pets Demo Application');
 });
 
-app.get('/pet',function(req,res){
+app.get('/animal',function(req,res){
     const client = new Client({
         user: 'dockeruser',
         password: 'dockerpass',
